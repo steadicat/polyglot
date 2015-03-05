@@ -1,0 +1,36 @@
+{
+  "name": "Polyglot",
+  "version": "0.0.1",
+  "description": "Script to extract strings from a JSX codebase for translation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steadicat/polyglot.git"
+  },
+  "keywords": [
+    "translation",
+    "internationalization",
+    "localization",
+    "i18n",
+    "l10n",
+    "react",
+    "jsx"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steadicat/polyglot/issues"
+  },
+  "bin": {
+    "polyglot": "./bin/polyglot.js"
+  },
+  "homepage": "https://github.com/steadicat/polyglot",
+  "dependencies": {
+    "Set": "0.4.1",
+    "acorn-babel": "0.11.1-37",
+    "commander": "2.6.0",
+    "glob": "4.4.2",
+    "merge": "1.2.0",
+    "mkdirp": "0.5.0"
+  },
+  "readmeFilename": "README.md"
+}
