@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var acornBabel = require('acorn-babel');
 var path = require('path');
 var fs = require('fs');
