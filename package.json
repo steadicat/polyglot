@@ -1,5 +1,5 @@
 {
-  "name": "Polyglot",
+  "name": "polyglot",
   "version": "0.0.1",
   "description": "Script to extract strings from a JSX codebase for translation",
   "main": "index.js",

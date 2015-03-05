@@ -148,7 +148,11 @@ function main(pattern, languages, functionName, output, ignore) {
         if (err) {
           data = '{}';
         }
-        var langStrings = merge(enStrings, JSON.parse(data));
+        data = JSON.parse(data);
+        for (var k in data) {
+          if (data[k] === '') delete data[k];
+        }
+        var langStrings = merge(enStrings, data);
         fs.writeFile(fileName, JSON.stringify(langStrings, null, 2), function(err) {
           if (err) console.log(err);
         });
